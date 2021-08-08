@@ -1,0 +1,58 @@
+.editor .kbd65 .key, .live-training .kbd65 .key, .mobile-editor .kbd65 .key, .print-layer .kbd65 .key,.key {
+  padding-top: 50%;
+  font-size: 1.4em;
+}
+
+.key {
+  background-color: rgb(30, 28, 25);
+  border-color: rgb(73, 70, 62);
+}
+
+.key {
+  transition: border .4s ease,color .4s ease;
+}
+
+.key {
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #00aaff;
+  font-family: Inter,sans-serif;
+  font-weight: 400;
+  padding-top: 50%;
+  position: relative;
+  line-height: 0.8em;
+}
+
+.key .content {
+  color: rgb(191, 177, 153);
+}
+
+.key .content {
+  bottom: 0;
+  color: #666;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  padding: 2px 2px;
+  word-break: break-word;
+}
+
+
+#tooltip{
+  background-color:indianred;
+
+}
+
+.tooltiphidden{
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.tooltip{
+  background: indianred;
+}

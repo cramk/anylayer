@@ -1,0 +1,26 @@
+.editor {
+  margin-top: 30px;
+  padding-bottom: 30px;
+  min-width: 1200px;
+}
+.editor {
+  line-height: 24px;
+}
+
+.editor .frame {
+  padding: 30px 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex1 {
+  flex:1;
+}
+
+.fluid-container {
+  max-width: 1440px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
