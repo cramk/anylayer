@@ -4,7 +4,6 @@ import Editor from "../editor";
 const Keyboard = () => {
   return (
     <div className={styles.kbdframe}>
-      Lorem Ipsum
       <Editor />
     </div>
   );

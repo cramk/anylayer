@@ -26,10 +26,22 @@ const Kbd65 = () => {
 
   return (
     <div className={styles.flex1}>
-      KBD65
+    
+      <span className="inline-block py-1 px-2 rounded bg-green-800 text-white-400 text-opacity-75 text-lg font-medium tracking-widest">65% Keyboard</span>
    
     <div className={styles.kbd65}>
-      
+    <Key kbdkey={"1"} handleMapUpdate={handleMapUpdate} />
+    <Key kbdkey={"2"} handleMapUpdate={handleMapUpdate} />
+    <Key kbdkey={"3"} handleMapUpdate={handleMapUpdate} />
+    <Key kbdkey={"4"} handleMapUpdate={handleMapUpdate} />
+    <Key kbdkey={"5"} handleMapUpdate={handleMapUpdate} />
+    <Key kbdkey={"6"} handleMapUpdate={handleMapUpdate} />
+    <Key kbdkey={"7"} handleMapUpdate={handleMapUpdate} />
+    <Key kbdkey={"8"} handleMapUpdate={handleMapUpdate} />
+    <Key kbdkey={"9"} handleMapUpdate={handleMapUpdate} />
+    <Key kbdkey={"0"} handleMapUpdate={handleMapUpdate} />
+    <Key kbdkey={"-"} handleMapUpdate={handleMapUpdate} />
+    <Key kbdkey={"="} handleMapUpdate={handleMapUpdate} />
         <Key kbdkey={"Q"} handleMapUpdate={handleMapUpdate} />
       <Key kbdkey={"W"} handleMapUpdate={handleMapUpdate}/>
       <Key kbdkey={"E"} handleMapUpdate={handleMapUpdate}/>
