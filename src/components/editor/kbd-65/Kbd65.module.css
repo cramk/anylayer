@@ -1,6 +1,6 @@
 .editor .kbd65, .live-training .kbd65, .mobile-editor .kbd65, .print-layer .kbd65, .kbd65 {
   display: grid;
-  grid-template-columns: repeat(12,1fr);
+  grid-template-columns: repeat(13,1fr);
   grid-template-rows: repeat(4,1fr);
   column-gap: 4px;
 

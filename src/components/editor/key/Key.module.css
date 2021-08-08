@@ -54,5 +54,6 @@
 }
 
 .tooltip{
-  background: indianred;
+  width:200px;
+  z-index:2;
 }

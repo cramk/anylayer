@@ -21,13 +21,19 @@ const Key = (props) => {
       <div ref={boxRef}>
         <a onClick={onClickHeader} className={stylesNext.content}>
           {props.kbdkey}
-        </a>
+        </a>    
+      </div>
+
+      {props.kbdkey != ""?
+        <div className={`lg:w-2/6 md:w-1/2 bg-gray-800 bg-opacity-50 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 ${stylesNext.tooltip} ${isOpen ? "" : stylesNext.tooltiphidden}`} ref={tooltipRef} style={styles.popper} {...attributes.popper}>
+       
+          <p className="text-xs mt-3">Mapping for Key <span className="font-bold text-xl">{props.kbdkey}</span></p>
+          <Keymenu kbdkey={props.kbdkey} onsetmap={props.handleMapUpdate} />
     
-      </div>
-      <div className={`${stylesNext.tooltip} ${isOpen ? "" : stylesNext.tooltiphidden}`} ref={tooltipRef} style={styles.popper} { ...attributes.popper }>
-        TOOLTIP
-        <Keymenu kbdkey={props.kbdkey}/>
-      </div>
+        </div>:null}
+        
+         
+      
       </div>
   );
 };
