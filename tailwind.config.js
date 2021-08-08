@@ -6,7 +6,7 @@ module.exports = {
     removeDeprecatedGapUtilities: true,
     purgeLayersByDefault: true,
   },
-  purge: ["./src/components/**/*.js", "./pages/**/*.js"],
+  //purge: ["./src/components/**/*.js", "./pages/**/*.js"],
   theme: {
     extend: {},
   },
