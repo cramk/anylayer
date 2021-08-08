@@ -27,7 +27,7 @@ const Kbd65 = () => {
   return (
     <div className={styles.flex1}>
     
-      <span className="inline-block py-1 px-2 rounded bg-green-800 text-white-400 text-opacity-75 text-lg font-medium tracking-widest">65% Keyboard</span>
+      <span className="inline-block py-1 px-2 mb-3 rounded bg-green-800 text-white-400 text-opacity-75 text-lg font-medium tracking-widest">65% Keyboard</span>
    
     <div className={styles.kbd65}>
     <Key kbdkey={"1"} handleMapUpdate={handleMapUpdate} />
@@ -42,6 +42,7 @@ const Kbd65 = () => {
     <Key kbdkey={"0"} handleMapUpdate={handleMapUpdate} />
     <Key kbdkey={"-"} handleMapUpdate={handleMapUpdate} />
     <Key kbdkey={"="} handleMapUpdate={handleMapUpdate} />
+    <Key kbdkey={"BSPC"} handleMapUpdate={handleMapUpdate} />
         <Key kbdkey={"Q"} handleMapUpdate={handleMapUpdate} />
       <Key kbdkey={"W"} handleMapUpdate={handleMapUpdate}/>
       <Key kbdkey={"E"} handleMapUpdate={handleMapUpdate}/>
@@ -80,12 +81,13 @@ const Kbd65 = () => {
       <Key kbdkey={"."} handleMapUpdate={handleMapUpdate}/>
       <Key kbdkey={"/"} handleMapUpdate={handleMapUpdate}/>
       <Key kbdkey={"Shift"} handleMapUpdate={handleMapUpdate}/>
+      <Key kbdkey={""} handleMapUpdate={handleMapUpdate}/>
 
       </div>
       <ol>
         {mapChanges.map(val => <li key={val.kbdkey}>OLD KEY:{val.kbdkey}-NEW KEY:{val.text}-CODE:<code>{val.code}</code></li>)}
       </ol>
-      <button className="text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg" onClick={doGenerate}>Download Config</button>
+      <button className="text-white mt-5 bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg" onClick={doGenerate}>Download Config</button>
       </div>
   )
 }
