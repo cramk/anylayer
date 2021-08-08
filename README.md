@@ -1,8 +1,9 @@
 
 <h1 align="center">:video_game: AnyLayer CAPSLOCK AHK :musical_keyboard:</h1>
-<p align="center">Web based Caps key layer configuration tool. Generates autohotkey (.ahk) files from a simple UI.</p>
+<p align="center">Make use of that useless caps key, add a caps layer through Autohotkey + AnyLayer🎇</p>
+<p align="center">Web based layer configuration tool. Generates autohotkey (.ahk) files from a simple UI.</p>
   
-<p align="center">Map keyboard buttons to other keys, console commands, key combinations (coming soon)</p>
+<p align="center">Map buttons to other keys, console commands, key combinations (coming soon)</p>
 
 <h4>TODO</h4>
 <ul>
