@@ -1,6 +1,7 @@
 import React, { useState,useRef } from 'react';
 import { usePopper } from 'react-popper';
 import stylesNext from './Key.module.css'
+import Keymenu from '../keymenu'
 
 const Key = (props) => {
   const[isOpen, setIsOpen] = useState(false);
@@ -25,6 +26,7 @@ const Key = (props) => {
       </div>
       <div className={`${stylesNext.tooltip} ${isOpen ? "" : stylesNext.tooltiphidden}`} ref={tooltipRef} style={styles.popper} { ...attributes.popper }>
         TOOLTIP
+        <Keymenu kbdkey={props.kbdkey}/>
       </div>
       </div>
   );

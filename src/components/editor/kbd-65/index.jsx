@@ -20,6 +20,7 @@ const Kbd65 = () => {
       <Key kbdkey={"P"}/>
       <Key kbdkey={"["}/>
       <Key kbdkey={"]"}/>
+
       </div>
       </div>
   )
