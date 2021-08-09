@@ -9,7 +9,8 @@
 
 <h4>TODO</h4>
 <ul>
-  <li>Populate keycodes</li>
+   <li>Populate keycodes</li>
+   <li>Drop SSR, implement store</li>
    <li>Add 60%, TKL, 100+ Keyboard layouts</li>
    <li>Add template import/export</li>
    <li>Add key combinations/modifiers</li>
